@@ -1,0 +1,58 @@
+body
+{
+    font-family: 'arial', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+h1
+{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e63946;
+}
+
+.carta
+{
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 20px solid #e63946;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.botao
+{
+    font-size: 1em;
+    padding: 10px 20px;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.botao:hover
+{
+    background: #ff6f61;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
